@@ -21,7 +21,7 @@ This page is where the game is downloaded. Open **[Releases](../../releases/late
 | Windows (zip) | `NOCTURNE-The-Hollow-Throne-windows.zip` | Unzip anywhere, open the folder, run `Game.exe`. |
 | Linux (64-bit) | `NOCTURNE-The-Hollow-Throne-linux-x64.tar.gz` | Unpack it, then run `./nocturne.sh` in the folder. |
 
-Nothing to install besides the game itself: it ships with its own runtime. Saves are kept next to the game (zip and Linux) or in its install folder (installer).
+Nothing to install besides the game itself: it ships with its own runtime. On Linux the usual desktop libraries must be present (GTK 3, NSS, ALSA, X11); on Debian or Ubuntu: `sudo apt install libgtk-3-0 libnss3 libasound2 libxss1 libxtst6`. The Linux build has not been played yet on a real Linux machine, so please report problems. Saves are kept next to the game (zip and Linux) or in its install folder (installer).
 
 ## About the game
 
